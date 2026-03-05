@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StepLeague — Turn Your Steps Into Competition</title>
+  <meta name="description" content="Join monthly step leagues, compete on leaderboards, and stay accountable for just $10/month. StepLeague turns walking into a global competition.">
+  <meta name="keywords" content="step challenge, walking competition, fitness league, accountability, step tracking, gamified fitness">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="StepLeague — Turn Your Steps Into Competition">
+  <meta property="og:description" content="Join monthly step leagues, compete on leaderboards, and stay accountable for just $10/month.">
+  <meta property="og:url" content="https://stepleague.online">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://stepleague.online/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="StepLeague — Turn Your Steps Into Competition">
+  <meta name="twitter:description" content="Join monthly step leagues, compete on leaderboards, and stay accountable for just $10/month.">
+  <link rel="canonical" href="https://stepleague.online">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======================== NAV ======================== -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="StepLeague Home">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="16" cy="16" r="16" fill="#2563EB"/>
+          <path d="M8 22L13 12L18 17L23 10" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="23" cy="10" r="2.5" fill="#F97316"/>
+        </svg>
+        <span>StepLeague</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#download" class="btn-primary nav-cta">Join the League</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-pattern" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Monthly Leagues Now Open
+        </div>
+        <h1 class="hero-headline">Turn Your Steps Into <span class="gradient-text">Competition</span></h1>
+        <p class="hero-sub">Join monthly walking leagues. Compete on leaderboards. Stay accountable for just <strong>$10/month</strong>.</p>
+        <div class="hero-ctas">
+          <a href="#download" class="btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12l4 4 4-4M12 8v8"/></svg>
+            Download the App
+          </a>
+          <a href="#how-it-works" class="btn-ghost btn-lg">
+            How It Works
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <p class="hero-disclaimer">No gym required. Just your phone and your drive.</p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="app-header">
+              <span class="app-logo-sm">StepLeague</span>
+              <span class="app-month">March 2026</span>
+            </div>
+            <div class="leaderboard">
+              <div class="leaderboard-title">Live Leaderboard</div>
+              <div class="lb-row rank-1">
+                <span class="rank">🥇</span>
+                <span class="lb-name">Jordan K.</span>
+                <span class="lb-steps">24,310 steps</span>
+              </div>
+              <div class="lb-row rank-2">
+                <span class="rank">🥈</span>
+                <span class="lb-name">Alex M.</span>
+                <span class="lb-steps">21,804 steps</span>
+              </div>
+              <div class="lb-row rank-3">
+                <span class="rank">🥉</span>
+                <span class="lb-name">Taylor R.</span>
+                <span class="lb-steps">19,550 steps</span>
+              </div>
+              <div class="lb-row rank-you">
+                <span class="rank">4th</span>
+                <span class="lb-name">You</span>
+                <span class="lb-steps">17,200 steps</span>
+              </div>
+              <div class="lb-row">
+                <span class="rank">5th</span>
+                <span class="lb-name">Sam L.</span>
+                <span class="lb-steps">14,900 steps</span>
+              </div>
+            </div>
+            <div class="app-progress">
+              <div class="progress-label">
+                <span>Daily Goal</span>
+                <span class="progress-pct">72%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width:72%"></div>
+              </div>
+            </div>
+            <div class="app-cta-btn">Keep Walking →</div>
+          </div>
+          <div class="phone-notch"></div>
+        </div>
+        <div class="hero-float-badge badge-steps">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#22C55E" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+          <span>+2,847 steps today</span>
+        </div>
+        <div class="hero-float-badge badge-rank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>Rank #4 this week</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SOCIAL PROOF STRIP ======================== -->
+  <section class="proof-strip" aria-label="Platform statistics">
+    <div class="container proof-inner">
+      <div class="proof-stat">
+        <span class="stat-num">10,000<span class="stat-plus">+</span></span>
+        <span class="stat-label">Monthly Step Challengers</span>
+      </div>
+      <div class="proof-divider" aria-hidden="true"></div>
+      <div class="proof-stat">
+        <span class="stat-num">$10</span>
+        <span class="stat-label">Per Month to Compete</span>
+      </div>
+      <div class="proof-divider" aria-hidden="true"></div>
+      <div class="proof-stat">
+        <span class="stat-num">500K<span class="stat-plus">+</span></span>
+        <span class="stat-label">Steps Logged Daily</span>
+      </div>
+      <div class="proof-divider" aria-hidden="true"></div>
+      <div class="proof-stat">
+        <span class="stat-num">100<span class="stat-plus">%</span></span>
+        <span class="stat-label">Phone Compatible</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== HOW IT WORKS ======================== -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Simple Process</span>
+        <h2>How StepLeague Works</h2>
+        <p>From signup to leaderboard in minutes. No equipment needed.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Join the League</h3>
+          <p>Download the StepLeague app and create your free account in under a minute.</p>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <h3>Commit to the Challenge</h3>
+          <p>Enter the monthly step league for just $10. Your commitment is what drives accountability.</p>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Track Your Steps</h3>
+          <p>Your steps sync automatically from your phone or smartwatch. Apple Health and Google Fit supported.</p>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+        <div class="step-card">
+          <div class="step-number">04</div>
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <h3>Climb the Leaderboard</h3>
+          <p>Walk more. Rank higher. Compete daily and earn your spot at the top of the league.</p>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+        <div class="step-card">
+          <div class="step-number">05</div>
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3>Win Together</h3>
+          <p>Top performers earn recognition, badges, and bragging rights. Every walker wins by improving their health.</p>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+        <div class="step-card step-card--impact">
+          <div class="step-number">06</div>
+          <div class="step-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Make an Impact</h3>
+          <p>A portion of every subscription supports organizations helping people with disabilities live fuller, more independent lives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FEATURES ======================== -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Platform Features</span>
+        <h2>Why People Love StepLeague</h2>
+        <p>Everything you need to stay motivated, competitive, and consistent.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card feature-card--large">
+          <div class="feature-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <h3>Monthly Step Competitions</h3>
+          <p>Fresh leagues every month. New competition, new motivation. Compete against hundreds of walkers across the country — every 30 days is a new shot at the top.</p>
+          <div class="feature-tag">Core Feature</div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3>Live Leaderboards</h3>
+          <p>See where you rank in real time. Daily and monthly standings updated automatically.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Smartwatch Integration</h3>
+          <p>Syncs with Apple Health and Google Fit automatically. No manual logging required.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Community Leagues</h3>
+          <p>Join public leagues or create private challenges with friends, coworkers, or your neighborhood.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3>Achievement Badges</h3>
+          <p>Unlock badges for milestones, streaks, and top finishes. Show off your competitive record.</p>
+        </div>
+        <div class="feature-card feature-card--impact">
+          <div class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Social Impact Donations</h3>
+          <p>A portion of every league fee goes directly to nonprofits supporting people with disabilities. Walk for a bigger purpose.</p>
+          <div class="feature-tag feature-tag--green">Our Promise</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== MISSION ======================== -->
+  <section class="section mission" id="mission">
+    <div class="container">
+      <div class="mission-inner">
+        <div class="mission-content">
+          <span class="section-tag section-tag--light">Our Mission</span>
+          <h2>Walking Together for a Better World</h2>
+          <p class="mission-lead">StepLeague exists to motivate healthier lives through friendly competition — and to ensure those steps create real-world impact.</p>
+          <p>A portion of every StepLeague subscription supports organizations helping people with disabilities live fuller, more independent, and more active lives.</p>
+          <p>Every step you take on the leaderboard contributes to something bigger than a ranking. You're part of a movement.</p>
+          <a href="#download" class="btn-primary">Join the Movement</a>
+        </div>
+        <div class="mission-visual" aria-hidden="true">
+          <div class="impact-card">
+            <div class="impact-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <div class="impact-text">
+              <strong>Community First</strong>
+              <span>Portion of revenue donated to disability support organizations</span>
+            </div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="impact-text">
+              <strong>Accountability Driven</strong>
+              <span>Financial commitment turns intentions into action</span>
+            </div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="impact-text">
+              <strong>Global Community</strong>
+              <span>Walkers, runners, and everyday competitors worldwide</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== PRICING ======================== -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pricing</span>
+        <h2>One Simple League</h2>
+        <p>No tiers. No confusion. Just compete.</p>
+      </div>
+      <div class="pricing-card-wrapper">
+        <div class="pricing-card">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-amount">
+            <span class="price-dollar">$</span>
+            <span class="price-num">10</span>
+            <span class="price-period">/month</span>
+          </div>
+          <p class="pricing-sub">Enter any monthly step league. Cancel anytime.</p>
+          <ul class="pricing-features" role="list">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Monthly step competitions
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Live leaderboards
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Community leagues
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Smartwatch integration
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Achievement badges
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Social impact donations
+            </li>
+          </ul>
+          <a href="#download" class="btn-primary btn-full btn-lg">Join the League</a>
+          <p class="pricing-disclaimer">Cancel anytime. No commitments beyond the current month.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== TESTIMONIALS ======================== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Early Feedback</span>
+        <h2>Walkers Are Talking</h2>
+        <p>What beta users are saying about the platform.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>"StepLeague finally gave me the motivation to walk every single day. Knowing I'm competing against real people makes all the difference."</blockquote>
+          <cite>— Jordan K., Beta User</cite>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>"The $10 commitment sounds small but it completely changed my mindset. I went from 3,000 steps a day to over 12,000. The leaderboard is addictive."</blockquote>
+          <cite>— Alex M., Beta User</cite>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#F97316" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>"I love that part of what I pay actually goes to a good cause. It makes me feel like every walk matters beyond just my own health."</blockquote>
+          <cite>— Taylor R., Beta User</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== DOWNLOAD CTA ======================== -->
+  <section class="section download" id="download">
+    <div class="container">
+      <div class="download-inner">
+        <div class="download-content">
+          <h2>Your Next Step Starts Here.</h2>
+          <p>Join the league today. Start competing tomorrow. Walk your way to the top.</p>
+          <div class="download-btns">
+            <a href="#" class="store-btn" aria-label="Download on the App Store">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.14-2.22 1.3-2.2 3.88.03 3.05 2.68 4.07 2.71 4.08l-.06.12zM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <div class="store-text">
+                <span class="store-small">Download on the</span>
+                <span class="store-big">App Store</span>
+              </div>
+            </a>
+            <a href="#" class="store-btn" aria-label="Get it on Google Play">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.18 23.76c.3.17.64.24.99.2L15.03 12 11.2 8.17 3.18 23.76zM20.96 10.08l-2.83-1.62-3.48 3.48 3.48 3.48 2.86-1.63c.82-.47.82-1.24-.03-1.71zM2.01 1.05C1.84 1.3 1.75 1.62 1.75 2v20c0 .38.09.7.26.95l.12.1 11.2-11.2v-.25L2.13.95l-.12.1zM15.03 12L3.18.24c.35-.04.7.03.99.2L20.96 10.08c.82.47.82 1.24 0 1.71L4.17 23.56c-.3.17-.64.24-.99.2L15.03 12z"/></svg>
+              <div class="store-text">
+                <span class="store-small">Get it on</span>
+                <span class="store-big">Google Play</span>
+              </div>
+            </a>
+          </div>
+          <p class="download-note">App coming soon. Enter your email to be first in line.</p>
+          <form class="notify-form" id="notify-form" novalidate>
+            <input type="email" placeholder="your@email.com" required aria-label="Email address for early access notification" autocomplete="email">
+            <button type="submit" class="btn-primary">Notify Me</button>
+          </form>
+          <p class="notify-success" id="notify-success" aria-live="polite" hidden>You're on the list! We'll notify you at launch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FAQ ======================== -->
+  <section class="section faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Questions</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list" id="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Do I need a smartwatch to participate?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>No smartwatch needed. StepLeague works with your smartphone's built-in step counter. If you do have a smartwatch or fitness tracker, we support Apple Health and Google Fit integrations for even more accurate tracking.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What happens if I don't finish at the top?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>You still win by improving your health. Every walker who participates builds better habits. The leaderboard resets each month — so every new month is a fresh opportunity to claim the top spot.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How much does it cost?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>$10 per month to participate in step leagues. No hidden fees. No annual commitment. You can cancel at any time before the next billing period.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How does step tracking work?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>The app reads steps directly from your phone's motion sensors or from Apple Health / Google Fit. Steps sync automatically — no manual entry needed. We verify data to ensure fair competition for all participants.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Where do the donations go?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>A portion of StepLeague's monthly subscription revenue is donated to nonprofit organizations supporting people with disabilities. We'll publish transparent donation reports within the app and on our website.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Can I compete with friends specifically?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Yes. You can join public leagues against the global community, or create private leagues to challenge friends, coworkers, or any group you choose. Private leagues use the same $10/month entry.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Can I cancel my subscription?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Yes, you can cancel at any time. Once you cancel, you retain access through the end of your current billing period. Payments are non-refundable once a challenge period begins. See our <a href="refund.html">Refund Policy</a> for details.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FINAL CTA BANNER ======================== -->
+  <section class="cta-banner" aria-label="Call to action">
+    <div class="container">
+      <h2>Your Next Step Starts Here.</h2>
+      <p>Join the league. Start competing. Make every step count.</p>
+      <a href="#download" class="btn-primary btn-lg btn-white">Join StepLeague</a>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo footer-logo" aria-label="StepLeague">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="16" cy="16" r="16" fill="#2563EB"/>
+              <path d="M8 22L13 12L18 17L23 10" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="23" cy="10" r="2.5" fill="#F97316"/>
+            </svg>
+            <span>StepLeague</span>
+          </a>
+          <p>The gamified walking competition platform. Compete. Climb. Make an impact.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="StepLeague on Twitter/X" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" aria-label="StepLeague on Instagram" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="StepLeague on TikTok" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.17 8.17 0 004.77 1.52V6.76a4.85 4.85 0 01-1-.07z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#download">Download App</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="refund.html">Refund Policy</a></li>
+            <li><a href="accessibility.html">Accessibility Statement</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 StepLeague. All rights reserved. StepLeague is an independent wellness platform promoting fitness through friendly competition.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
